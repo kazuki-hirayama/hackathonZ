@@ -3,7 +3,7 @@
 // 投稿メッセージをサーバに送信する
 function publish() {
     // ユーザ名を取得
-    const userName = $('#userName').text();
+    const userName = $('#userName').val();
     // 入力されたメッセージを取得
     const message = $('#message').val();
     // 投稿内容を送信
